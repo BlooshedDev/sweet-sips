@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e2f3e4;
+}
+body * {
+  font-family: 'Montserrat';
+}
+
+@media screen and (min-width: 636px) {
+    .menu-1 {
+        top: 0;
+        margin-top: 325px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu1-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(405px, 1fr));
+        grid-gap: 5px;
+        margin: auto;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .sip-title {
+        text-align: center;
+        width: 400px;
+    }
+    .sip-img {
+        width: 400px;
+        border-radius: 1vmin;
+    }
+    .title {
+        text-align: center;
+        color: #ffffffee;
+        font-size: 7.5vmin;
+    }
+    .menu1-title {
+        padding: 3.5px 3.5px;
+        margin-top: 75px;
+        margin-bottom: 20px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        font-size: 5.5vmin;
+        color: #ffffffee;
+        background-color: #c5dfc7;
+        box-shadow: 0px 0px 15px #c5dfc7;
+        border-radius: 1vmin;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .menu-1 {
+        top: 0;
+        margin-top: 325px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu1-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(41vw, 0fr));
+        grid-gap: 5px;
+        margin: auto;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .sip-title {
+        text-align: center;
+        font-size: 4vw;
+        width: 40vw;
+    }
+    .sip-img {
+        width: 40vw;
+        border-radius: 1vmin;
+    }
+    .title {
+        text-align: center;
+        color: #ffffffee;
+        font-size: 7.5vmin;
+    }
+    .menu1-title {
+        padding: 3.5px 3.5px;
+        margin-top: 75px;
+        margin-bottom: 20px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        font-size: 5.5vmin;
+        color: #ffffffee;
+        background-color: #c5dfc7;
+        box-shadow: 0px 0px 15px #c5dfc7;
+        border-radius: 1vmin;
+    }
+}
