@@ -12,14 +12,17 @@ function Menu_Sip() {
                 <div>
                     <img className='sip-img' src={Sip_1}></img>
                     <h2 className='sip-title'>Soda Gembira</h2>
+                    <h2 className='sip-price'>Mulai Rp12.000</h2>
                 </div>
                 <div>
                     <img className='sip-img' src={Sip_2}></img>
                     <h2 className='sip-title'>Es Milo Spesial</h2>
+                    <h2 className='sip-price'>Mulai Rp8.000</h2>
                 </div>
                 <div>
                     <img className='sip-img' src={Sip_3}></img>
                     <h2 className='sip-title'>Yakult Sprite</h2>
+                    <h2 className='sip-price'>Mulai Rp9.000</h2>
                 </div>
             </section>
         </section>

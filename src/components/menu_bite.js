@@ -11,14 +11,17 @@ function Menu_Bite() {
                 <div>
                     <img className='bite-img' src={Bite_1}></img>
                     <h2 className='bite-title'>Pudding Jeruk</h2>
+                    <h2 className='bite-price'>Rp14.500</h2>
                 </div>
                 <div>
                     <img className='bite-img' src={Bite_2}></img>
                     <h2 className='bite-title'>Truffle Red Velvet</h2>
+                    <h2 className='bite-price'>Rp14.500</h2>
                 </div>
                 <div>
                     <img className='bite-img' src={Bite_3}></img>
                     <h2 className='bite-title'>Matcha Oreo Softcake</h2>
+                    <h2 className='bite-price'>Rp14.000</h2>
                 </div>
             </section>
         </section>
