@@ -79,8 +79,14 @@ body * {
     }
     .sip-title {
         text-align: center;
+        font-size: 5vw;
+        width: 40vw;
+    }
+    .sip-price {
+        text-align: center;
         font-size: 4vw;
         width: 40vw;
+        color: #ff5d5d;
     }
     .sip-img {
         width: 40vw;

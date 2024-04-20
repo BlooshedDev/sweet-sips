@@ -75,8 +75,14 @@ body * {
     }
     .bite-title {
         text-align: center;
-        font-size: 4vw;
+        font-size: 4.2vw;
         width: 40vw;
+    }
+    .bite-price {
+        text-align: center;
+        font-size: 3.5vw;
+        width: 40vw;
+        color: #ff5d5d;
     }
     .bite-img {
         width: 40vw;
